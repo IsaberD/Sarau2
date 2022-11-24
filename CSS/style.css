@@ -1,0 +1,74 @@
+html,
+body {
+  text-align: justify;
+  font-family: "Courier New", Courier, monospace;
+  background-image: url("/Image/Backgroud.jpg");
+  background-attachment: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+nav {
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 15px;
+  overflow: hidden;
+  background-color: rgba(135, 206, 250, 0.29);
+  margin-bottom: 15px;
+}
+
+a {
+  display: block;
+  color: rgb(0, 48, 221);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 500ms;
+}
+
+a:hover {
+  transition: 500ms;
+  border-radius: 5px;
+  background-color: #add8e6;
+}
+
+main {
+  margin: 0 10%;
+}
+
+h1, h2 {
+  font-size: large;
+  font-family: sans-serif;
+}
+
+p {
+  font-size: small;
+}
+
+.letra-video {
+  display: flex;
+  justify-content: space-around;
+}
+
+.flutuante-esq {
+  height: fit-content;
+  margin-right: 15px;
+  position: sticky;
+  top: 150px;
+}
+
+.letra {
+  padding: 15px;
+  margin-bottom: 25px;
+  border-radius: 5px;
+  background-color: rgba(135, 206, 250, 0.29);
+}
+
+mark.highlight, p.highlight, div.highlight {
+  background-color:  rgba(135, 206, 250, 0.29);
+  padding: 15px;
+  margin-bottom: 25px;
+  border-radius: 5px;
+}
