@@ -2,7 +2,7 @@ html,
 body {
   text-align: justify;
   font-family: "Courier New", Courier, monospace;
-  background-image: url("../Image/Backgroud.jpg");
+  background-image: url("./../Image/Backgroud.jpg");
   background-attachment: no-repeat;
   background-attachment: fixed;
   background-size: cover;
