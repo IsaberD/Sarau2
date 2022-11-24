@@ -72,3 +72,8 @@ mark.highlight, p.highlight, div.highlight {
   margin-bottom: 25px;
   border-radius: 5px;
 }
+
+footer {
+  background-color: rgba(135, 206, 250, 0.29);
+  padding: 3px;
+}
